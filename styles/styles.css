@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    background-image: url(../imagenes/LOGO.png);
+    background-position: 01rem;
+    border-style: solid; color: #9b9b9b;
+    background-color: #6d0000;
+    padding: 120px;
+    margin: 01rem;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    grid-area: header;
+}
+
+
+.titulito{
+    color: #9b9b9b;
+    font-size: 75px;
+    padding-left: 15rem;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+.ul{
+    list-style-type: none;
+    color: #9b9b9b;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-left: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+
+.rep{
+    color: #9b9b9b;
+    flex-direction: row;
+    padding-left: 15rem;
+    font-size: 40px;
+    text-decoration: none;
+    position: relative;
+    display: inline; block-size: auto;
+    padding: 15px 60px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.rep:hover{
+    background: #ffffff;
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+    transition-delay: 0.3s;
+}
+
+
+.section{
+    background-color: #9b9b9b;
+    margin: 1rem;
+    border-style: solid; color: #6d0000;
+    grid-area: section;
+}
+
+
+.subtitulo{
+    color: #6d0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+
+.parrafo{
+    color: #6d0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+
+.footer{
+    margin: 01rem;
+    background-color: #6d0000;
+    border-style: solid; color: #9b9b9b;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ul2{
+    list-style-type: none;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.rep2{
+    color: #9b9b9b;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: relative;
+    display: inline; block-size: auto;
+    padding: 15px 60px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+.rep2:hover{
+    background: #ffffff;
+    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
+    transition-delay: 0.3s;
+}
+
+.acepto{
+    text-align: center;
+}
+
+
+.form{
+    color: #6d0000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.subtituloubi{
+    color: #6d0000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10rem;
+    font-size: 30px;
+}
+
+
+.imageubi{
+    padding-left: 10rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.imageart{
+background-image: url(../imagenes/casita.png);
+
+}
+
+
+.ul3art{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding-left: 5rem;
+    display: flex;
+    padding-right: 15rem;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+
+.subtituloart{
+    color: #6d0000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50rem;
+    font-size: 40px;
+}
+
+
+.subtituloabout{
+    color: #6d0000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "header"
+        "section"
+        "footer";
+    grid-template-rows: 1fr 1fr auto;
+    background-image: url(file:///C:/Users/vale_/OneDrive/Escritorio/casita.png);
+    margin: 10px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .ul {
+        display: grid;
+        grid-template-columns: repeat (1, 1fr);
+    }
+
+    .header{
+        display: grid;
+    }
+    .footer {
+        display: flex;
+    }
+    .section {
+        display: grid;
+    }
+    .parrafo{
+        display: grid;
+    }
+    .titulito{
+        display: grid;
+    }
+    .subtitulo{
+        display: grid;
+    }
+    .ul2{
+        display: grid;
+    }
+    .form{
+        display: grid;
+    }
+    .subtituloart {
+        display: grid;
+    }
+    .ul3art {
+        display: grid;
+    }
+    .imageart{
+        display: grid;
+    }
+    .subtituloubi{
+        display: grid;
+    }
+    .imageubi{
+        display: grid;
+    }
+}
