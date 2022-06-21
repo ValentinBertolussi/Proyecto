@@ -23,10 +23,6 @@
     font-size: 75px;
     padding-left: 15rem;
     font-family: Arial, Helvetica, sans-serif; 
-    background: -webkit-linear-gradient(left top, #9b9b9b, #ac3939b6);
-    background: linear-gradient(bottom right, #9b9b9b, #ac3939b6);
-    -webkit-background-clip: text;  
-    -webkit-text-fill-color: transparent; 
 }
 
 
