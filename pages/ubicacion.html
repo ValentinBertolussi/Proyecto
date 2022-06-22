@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./../styles/styles.css">
+    <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <metahttp-equiv="Expires"content="0">
+   <metahttp-equiv="Last-Modified"content="0">
+   <metahttp-equiv="Cache-Control"content="no-cache, mustrevalidate>
+   <metahttp-equiv="Pragma"content="no-cache">
 </head>
 <body class="grid">
+    <!-- HEADER -->
         <header class="header">
             <h1 class="titulito">Aberturas AS</h1>
             <nav>
@@ -19,14 +26,19 @@
                 </ul>
             </nav>
         </header>
+    <!-- CUERPO -->
         <section class="section">
-            <h4 class="subtituloubi">Nuestra ubicacion la encuentras haciendo click en la imagen</h4>
-            <div class="imageubi">
-            <a href="https://www.google.com/maps/place/Arroyo+Seco,+Santa+Fe/@-33.1529215,-60.5132509,14z/data=!3m1!4b1!4m5!3m4!1s0x95b70bbe1083611f:0x3afbd6de80827c58!8m2!3d-33.1564137!4d-60.5129906">
-            <img src="../imagenes/ubi.jpg" alt="jpg" height="305px" width="490px"/>
+            <div class="card" >
+                <img src="../imagenes/ubi.jpg" class="card-img-top" alt="jpg" height="650px">
+                <div class="card-body">
+                  <h5 class="card-title">Nuestra ubicacion</h5>
+                  <p class="card-text">Nuestra ubicaciónla encontraras haciendo click en el boton inferior</p>
+                  <a href="https://www.google.com/maps/place/Arroyo+Seco,+Santa+Fe/@-33.1529215,-60.5132509,14z/data=!3m1!4b1!4m5!3m4!1s0x95b70bbe1083611f:0x3afbd6de80827c58!8m2!3d-33.1564137!4d-60.5129906" class="btn btn-primary">ubicacion</a>
+                </div>
             </div>
         </section>
         <br />
+    <!-- FOOTER -->
         <footer class="footer">     
             <ul class="ul2">     
                 <li><a href="./ubicacion.html" class="rep2">ubicacion</a></li>       
@@ -34,5 +46,7 @@
                 <li><a href="https://www.facebook.com" class="rep2">facebook</a></li>
             </ul>
         </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
  </body>
 </html>
