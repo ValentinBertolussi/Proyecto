@@ -1,0 +1,32 @@
+.footer{
+    margin: 01rem;
+    background-color: #6d0000;
+    border-style: solid; color: #9b9b9b;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+
+    .ul2{
+        list-style-type: none;
+        padding-left: 5px;
+        display: flex;
+        justify-content: space-evenly;
+
+        .rep2{
+            color: #9b9b9b;
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            position: relative;
+            display: inline; block-size: auto;
+            padding: 15px 60px;
+            overflow: hidden;
+            transition: 0.5s;
+        }
+    }
+}
