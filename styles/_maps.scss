@@ -1,0 +1,20 @@
+
+$estilos: (
+    "color": #9b9b9b,
+    "Fsize": 25px,
+    "centrado": center,
+    "fle": flex,
+    "izq": 15rem,
+    "Top": 50px,
+    "deco": none,
+);
+.ul {
+    color: map-get($estilos, "color");
+    font-size: map-get($estilos, "Fsize");
+    display: map-get($estilos, "fle");
+    justify-content: map-get($estilos, "centrado");
+    padding-left: map-get($estilos, "izq");
+    font-family: map-get($estilos, "Tletra");
+    padding-top: map-get($estilos, "Top");
+    list-style-type: map-get($estilos, "deco")
+}
