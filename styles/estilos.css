@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .botones, .rep2:hover, .rep:hover {
   background: #ffffff;
   box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
@@ -48,55 +52,42 @@
     display: grid;
     grid-template-columns: repeat 1, 1fr;
   }
-
   .header {
     display: grid;
   }
-
   .footer {
     display: flex;
   }
-
   .section {
     display: grid;
   }
-
   .parrafo {
     display: grid;
   }
-
   .titulito {
     display: grid;
   }
-
   .subtitulo {
     display: grid;
   }
-
   .ul2 {
     display: grid;
   }
-
   .form {
     display: grid;
   }
-
   .subtituloart {
     display: grid;
   }
-
   .ul3art {
     display: grid;
   }
-
   .imageart {
     display: grid;
   }
-
   .subtituloubi {
     display: grid;
   }
-
   .imageubi {
     display: grid;
   }
