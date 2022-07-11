@@ -18,7 +18,19 @@
         background: -webkit-linear-gradient(left top, grey, #aa3e3e);
         background: linear-gradient(to bottom right, grey, #aa3e3e);
         -webkit-background-clip: text;  
-        -webkit-text-fill-color: transparent;
-        
+        -webkit-text-fill-color: transparent;}
+    .rep{
+        color: #9b9b9b;
+        flex-direction: row;
+        padding-left: 15rem;
+        font-size: 40px;
+        text-decoration: none;
+        position: relative;
+        display: inline; block-size: auto;
+        padding: 15px 60px;
+        overflow: hidden;
+        transition: 0.5s;
+        transform: translate(0px, 10px);
     }
+        
 }

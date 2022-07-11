@@ -4,6 +4,26 @@
   transition-delay: 0.3s;
 }
 
+.subtitulos, .parrafo, .subtituloart, .subtituloabout {
+  color: #6d0000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.subtituloabout {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.subtituloart {
+  text-align: center;
+}
+
+.parrafo {
+  padding-left: 10px;
+}
+
 .ul {
   color: #9b9b9b;
   font-size: 25px;
@@ -14,6 +34,73 @@
   list-style-type: none;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "section" "footer";
+  grid-template-rows: 1fr 1fr auto;
+  background-image: url(../imagenes/casita.png);
+  margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .ul {
+    display: grid;
+    grid-template-columns: repeat 1, 1fr;
+  }
+
+  .header {
+    display: grid;
+  }
+
+  .footer {
+    display: flex;
+  }
+
+  .section {
+    display: grid;
+  }
+
+  .parrafo {
+    display: grid;
+  }
+
+  .titulito {
+    display: grid;
+  }
+
+  .subtitulo {
+    display: grid;
+  }
+
+  .ul2 {
+    display: grid;
+  }
+
+  .form {
+    display: grid;
+  }
+
+  .subtituloart {
+    display: grid;
+  }
+
+  .ul3art {
+    display: grid;
+  }
+
+  .imageart {
+    display: grid;
+  }
+
+  .subtituloubi {
+    display: grid;
+  }
+
+  .imageubi {
+    display: grid;
+  }
+}
 .header {
   background-image: url(../imagenes/LOGO.png);
   background-position: 1rem;
@@ -35,6 +122,20 @@
   background: linear-gradient(to bottom right, grey, #aa3e3e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.header .rep {
+  color: #9b9b9b;
+  flex-direction: row;
+  padding-left: 15rem;
+  font-size: 40px;
+  text-decoration: none;
+  position: relative;
+  display: inline;
+  block-size: auto;
+  padding: 15px 60px;
+  overflow: hidden;
+  transition: 0.5s;
+  transform: translate(0px, 10px);
 }
 
 .footer {
@@ -80,6 +181,23 @@
 .section .subtitulo {
   color: #6d0000;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   padding-left: 10px;
+}
+
+.ul3art {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  color: #6d0000;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }/*# sourceMappingURL=estilos.css.map */

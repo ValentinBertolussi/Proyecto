@@ -1,0 +1,32 @@
+.section{
+    background-color: #9b9b9b;
+    margin: 1rem;
+    border-style: solid; color: #6d0000;
+    grid-area: section;
+
+    .subtitulo{
+        color: #6d0000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        padding-left: 10px;
+    }
+}
+
+// SECTION ARTICULOS
+.ul3art{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: center
+}
+// SECTION CONTACTOS
+
+.form{
+    color: #6d0000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
