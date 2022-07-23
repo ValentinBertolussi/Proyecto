@@ -1,15 +1,11 @@
-*{
-  margin: 0;
-  padding: 0;
-}
 .botones, .rep2:hover, .rep:hover {
-  background: #ffffff;
+  background: #911F27;
   box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
   transition-delay: 0.3s;
 }
 
 .subtitulos, .parrafo, .subtituloart, .subtituloabout {
-  color: #6d0000;
+  color: #9b9b9b;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
@@ -33,16 +29,20 @@
   font-size: 25px;
   display: flex;
   justify-content: center;
-  padding-left: 15rem;
   padding-top: 50px;
   list-style-type: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: "header" "section" "footer";
-  grid-template-rows: 1fr 1fr auto;
+  grid-template-rows: 1fr auto;
   background-image: url(../imagenes/casita.png);
   margin: 10px;
 }
@@ -50,10 +50,14 @@
 @media screen and (max-width: 480px) {
   .ul {
     display: grid;
-    grid-template-columns: repeat 1, 1fr;
+    grid-template-columns: repeat 1fr;
   }
   .header {
     display: grid;
+  }
+  .logo {
+    display: grid;
+    padding-left: 20px;
   }
   .footer {
     display: flex;
@@ -93,22 +97,20 @@
   }
 }
 .header {
-  background-image: url(../imagenes/LOGO.png);
-  background-position: 1rem;
   border-style: solid;
-  color: #9b9b9b;
-  background-color: #6d0000;
-  padding: 120px;
+  color: #FACE7F;
+  padding: 100px;
   margin: 1rem;
-  background-repeat: no-repeat;
   text-align: center;
   text-decoration: none;
   grid-area: header;
+  background: rgb(99, 10, 16);
+  background: linear-gradient(0deg, rgb(99, 10, 16) 0%, rgba(252, 240, 200, 0.8547794118) 100%);
 }
 .header .titulito {
   color: #9b9b9b;
   font-size: 75px;
-  padding-left: 15rem;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(to bottom right, grey, #aa3e3e);
   -webkit-background-clip: text;
@@ -131,9 +133,10 @@
 
 .footer {
   margin: 1rem;
-  background-color: #6d0000;
+  background: rgb(99, 10, 16);
+  background: linear-gradient(180deg, rgb(99, 10, 16) 25%, rgba(252, 240, 200, 0.9472163866) 100%);
   border-style: solid;
-  color: #9b9b9b;
+  color: #FACE7F;
   height: auto;
   width: auto;
   padding: 10px;
@@ -163,17 +166,22 @@
 }
 
 .section {
-  background-color: #9b9b9b;
+  background-color: #630a10;
   margin: 1rem;
   border-style: solid;
-  color: #6d0000;
+  color: #FACE7F;
   grid-area: section;
 }
 .section .subtitulo {
-  color: #6d0000;
+  color: #9b9b9b;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  padding-left: 10px;
+  text-align: center;
+  background: rgba(250, 207, 127, 0.1647058824);
+}
+
+.alert {
+  margin: 10px;
 }
 
 .ul3art {
@@ -184,7 +192,7 @@
 }
 
 .form {
-  color: #6d0000;
+  color: #9b9b9b;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 10px;
   font-size: 20px;
