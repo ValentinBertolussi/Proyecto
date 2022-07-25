@@ -4,13 +4,13 @@
   transition-delay: 0.3s;
 }
 
-.subtitulos, .parrafo, .subtituloart, .subtituloabout {
+.subtitulos, .parrafo, .subtituloart, .subtituloind {
   color: #6d0000;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
 
-.subtituloabout {
+.subtituloind {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -18,10 +18,12 @@
 
 .subtituloart {
   text-align: center;
+  color: #9b9b9b;
 }
 
 .parrafo {
   padding-left: 10px;
+  color: #9b9b9b;
 }
 
 .ul {
@@ -181,6 +183,10 @@
 
 .alert {
   margin: 10px;
+}
+
+.bob {
+  background-image: url(https://www.gifsanimados.org/data/media/1003/bob-el-constructor-imagen-animada-0045.gif);
 }
 
 .ul3art {

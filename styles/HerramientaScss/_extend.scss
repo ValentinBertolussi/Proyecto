@@ -14,7 +14,7 @@
 .rep2:hover{
     @extend .botones
 };
-.subtituloabout{
+.subtituloind{
     @extend .subtitulos;
     padding-left: 10px;
     padding-right: 10px;
@@ -23,8 +23,10 @@
 .subtituloart{
     @extend .subtitulos;
     text-align: center;
+    color: #9b9b9b
 };
 .parrafo{
     @extend .subtitulos;
     padding-left: 10px;
+    color: #9b9b9b
 };
