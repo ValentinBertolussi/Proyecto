@@ -12,7 +12,6 @@
     grid-template-rows: 1fr auto;
     background-image: url(../imagenes/casita.png);
     margin: 10px;
-    overflow-x: hidden;
 }
 
 
@@ -63,9 +62,6 @@
         display: grid;
     }
     .imageubi{
-        display: grid;
-    }
-    .grid{
         display: grid;
     }
 }

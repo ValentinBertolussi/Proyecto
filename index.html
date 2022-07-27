@@ -24,45 +24,67 @@
 <body class="grid">
     <!-- HEADER -->
     <header class="header">
-        <img class="encabezado_logo img-fluid" src="./imagenes/LOGO.png" alt="LOGO" srcset="">
-        <nav>
-            <ul class="ul">
-                <li><a href="./index.html" class="rep">Inicio</a></li>
-                <li><a href="./pages/contacto.html" class="rep">Contacto</a></li>
-                <li><a href="./pages/articulos.html" class="rep">Artículos</a></li>
-                <li><a href="./pages/about.html" class="rep">About</a></li>
-            </ul>
+        <div class=".col-sm-12">
+            <img class="encabezado_logo img-fluid" src="./imagenes/LOGO.png" alt="LOGO" height="300px">
+        </div>
+        <nav class="uli">
+            <nav class="navbar navbar-expand-md" style="background-color:rgba(252,240,200,0.8547794117647058) ">
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="index.html"> Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/articulos.html">articulo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/about.html">about</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </nav>
     </header>
-    <!-- CUERPO -->
-    <section class="section">
-        <h1 class="subtitulo">Bienvenido a "Aberturas As"</h1>
-        <img src="./imagenes/bob el constructor.gif" class="rounded mx-auto d-block" alt="bob el constructor saludando">
-        <div class="alert alert-danger" role="alert">
-            <p class="parrafo">
-                En la parte superior de la página encontrarás nuestros artículos, información y contacto.
-                <br />
-                En la parte inferior de la página encontrarás nuestras redes sociales y nuestra ubicación.
-            </p>
-        </div>
-        <h4 class="subtituloind">
+    </div>
+    <div class=".col-sm-12">
+        <section class="section">
+            <h1 class="subtitulo">Bienvenido a "Aberturas As"</h1>
+            <img src="./imagenes/bob el constructor.gif" class="rounded mx-auto d-block"
+                alt="bob el constructor saludando">
             <div class="alert alert-danger" role="alert">
-                (La forma de pago y la entrega, se acuerdan en el local).
+                <p class="parrafo">
+                    En la parte superior de la página encontrarás nuestros artículos, información y contacto.
+                    <br />
+                    En la parte inferior de la página encontrarás nuestras redes sociales y nuestra ubicación.
+                </p>
             </div>
-        </h4>
+            <h4 class="subtituloind">
+                <div class="alert alert-danger" role="alert">
+                    (La forma de pago y la entrega, se acuerdan en el local).
+                </div>
+            </h4>
+    </div>
     </section>
-    <!-- FOOTER -->
-    <footer class="footer">
-        <ul class="ul2">
-            <li><a href="./pages/ubicacion.html" class="rep2">Ubicación</a></li>
-            <li><a href="https://www.instagram.com" class="rep2">Instagram</a></li>
-            <li><a href="https://www.facebook.com" class="rep2">Facebook</a></li>
-        </ul>
-    </footer>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+    <div class="col">
+        <footer class="footer">
+            <ul class="ul2">
+                <li><a href="./pages/ubicacion.html" class="rep2">Ubicación</a></li>
+                <li><a href="https://www.instagram.com/" class="rep2">Instagram</a></li>
+                <li><a href="https://www.facebook.com/" class="rep2">Facebook</a></li>
+            </ul>
+        </footer>
+
+    </div>
+    </div>
+    </div>
 </body>
 
 </html>
