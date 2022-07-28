@@ -1,5 +1,5 @@
 .botones, .rep2:hover, .rep:hover {
-  background: #ffffff;
+  background: #FACE7F;
   box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff, 0 0 80px #ffffff;
   transition-delay: 0.3s;
 }
@@ -44,15 +44,12 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: "header" "section" "footer";
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 1fr;
   background-image: url(../imagenes/casita.png);
   margin: 10px;
 }
 
 @media screen and (max-width: 480px) {
-  .ul {
-    display: grid;
-  }
   .header {
     display: grid;
   }
@@ -72,7 +69,7 @@
     display: grid;
   }
   .ul2 {
-    display: grid;
+    flex-direction: column;
   }
   .form {
     display: grid;
@@ -131,7 +128,6 @@
 .uli {
   font-size: 20px;
   padding: 1rem;
-  margin: 1rem;
 }
 
 .footer {
@@ -151,6 +147,7 @@
   list-style-type: none;
   padding-left: 5px;
   justify-content: space-evenly;
+  display: flex;
 }
 .footer .ul2 .rep2 {
   color: #9b9b9b;

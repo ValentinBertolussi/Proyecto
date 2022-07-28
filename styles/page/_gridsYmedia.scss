@@ -9,7 +9,7 @@
         "header"
         "section"
         "footer";
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 1fr;
     background-image: url(../imagenes/casita.png);
     margin: 10px;
 }
@@ -17,10 +17,6 @@
 
 
 @media screen and (max-width: 480px) {
-    .ul {
-        display: grid;
-    }
-
     .header{
         display: grid;
     }
@@ -40,7 +36,7 @@
         display: grid;
     }
     .ul2{
-        display: grid;
+        flex-direction: column;
     }
     .form{
         display: grid;
