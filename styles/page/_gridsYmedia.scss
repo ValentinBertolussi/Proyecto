@@ -18,15 +18,11 @@
 
 @media screen and (max-width: 480px) {
     .ul {
-        grid-template-columns: repeat ( 1fr);
+        display: grid;
     }
 
     .header{
         display: grid;
-    }
-    .logo{
-        display: grid;
-        padding-left: 20px;
     }
     .footer {
         display: flex;
