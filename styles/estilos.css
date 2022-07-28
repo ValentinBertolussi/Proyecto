@@ -101,15 +101,6 @@
   background: rgb(99, 10, 16);
   background: linear-gradient(0deg, rgb(99, 10, 16) 0%, rgba(252, 240, 200, 0.8547794118) 100%);
 }
-.header .titulito {
-  color: #9b9b9b;
-  font-size: 75px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #FACE7F;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 .header .rep {
   color: #9b9b9b;
   flex-direction: row;
@@ -127,7 +118,8 @@
 
 .uli {
   font-size: 20px;
-  padding: 1rem;
+  border-style: solid;
+  border-color: #630a10;
 }
 
 .footer {
